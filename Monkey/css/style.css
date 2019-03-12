@@ -1,0 +1,11 @@
+.crystal1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+img {
+height: 120px;
+width:100px;
+}

@@ -1,0 +1,35 @@
+#myDiv {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    animation: hotdog 5s infinite;
+    -webkit-animation: hotdog 5s infinite;
+}
+
+@keyframes hotdog {
+    0% { margin-top: 10px}
+    10% {margin-top: 25px}
+    25% {margin-top: 50px; margin-right: 300px; background-color: pink}
+    50% {margin-top: 80px; margin-bottom: 70px; background-color: red}
+    75% {margin-top: 75px; margin-right: 120px; background-color: seagreen}
+    100% {margin-top: 70px; margin-left: 200px; background-color: slateblue}
+}
+
+#someDive {
+    width: 100px;
+    height:300px;
+    background-color: black;
+    margin: auto;
+    animation: hello 2s infinite;
+    -webkit-animation: hello 2s infinite;
+}
+
+@keyframes hello {
+    0% { margin-top: 10px}
+    10% {margin-top: 25px}
+    25% {margin-top: 50px; margin-right: 10px; background-color:yellow}
+    50% {margin-top: 60px; margin-bottom: 7px; background-color:yellowgreen}
+    75% {margin-top: 80px; margin-right: 12px; background-color: seagreen}
+    100% {margin-top: 20px; margin-left: 30px; background-color: slateblue}
+}

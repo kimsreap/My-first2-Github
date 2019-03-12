@@ -1,0 +1,72 @@
+.red {
+    background-color: red
+}
+
+#container {
+    height:300px;
+    width:600px;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+    1fr 1fr 1fr 1fr 1fr;
+}
+
+#blue {
+    background-color: blue;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 7;
+    grid: 1 / 1 / span 7 / span 1;
+}
+#stripe1 {
+    grid-column: 2 / span 1;
+    grid-row: 1 / span 1;
+}
+#stripe2 {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+}
+#stripe3 {
+    grid-column: 2 / span 1;
+    grid-row: 3 / span 1;
+}
+#stripe4 {
+    grid-column: 2 / span 1;
+    grid-row: 4 / span 1;
+}
+#stripe5 {
+    grid-column: 2 / span 1;
+    grid-row: 5 / span 1;
+}
+#stripe6 {
+    grid-column: 2 / span 1;
+    grid-row: 6 / span 1;
+}
+#stripe7 {
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+}
+#stripe8 {
+    grid-column: 1 / span 2;
+    grid-row: 8 / span 1;
+}
+#stripe9 {
+    grid-column: 1 / span 2;
+    grid-row: 9 / span 1;
+}
+#stripe10 {
+    grid-column: 1 / span 2;
+    grid-row: 10 / span 1
+}
+#stripe11 {
+    grid-column: 1 / span 2;
+    grid-row: 11 / span 1;
+}
+#stripe12 {
+    grid-column: 1 / span 2;
+    grid-row: 12 / span 1;
+}
+#stripe13 {
+    grid-column: 1 / span 2;
+    grid-row: 13 / span 1;
+}
+
